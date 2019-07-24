@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://materializecss.com/dist/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <title>Sign Up</title>
+    </head>
+    <body>
+        
+        <header class="page-topbar">
+            <div class="navbar-fixed">
+                <nav class="white" role="navigation">
+                    <div class="nav-wrapper center">
+                        <a href="index.html" class="brand-logo orange-text">G-Money</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <br>
+            <center>
+                <div class="teal-text"><b>Fill in form to Sign Up a new account</b></div><br>
+                <div class="container">
+                    <div class="container">
+                        <div class="row z-depth-2" style="padding: 32px 30px 0px 30px; border: 1px solid #EEE; p">
+                            <form class="col s12" action="#" method="POST" name="registration"">
+                                <div class="row">
+                                    
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">person_outline</i>
+                                        <input id="firstname" name="firstname" type="text" class="validate" >
+                                        <label for="firstname">First Name</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="lastname" name='lastname' type="text" class="validate" >
+                                        <label for="lastname">Last Name</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">email</i>
+                                        <input id="email" name="email" type="email" class="validate" >
+                                        <label for="email">Enter Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="username" name="username" type="text" class="validate" >
+                                        <label for="username">Enter Your Username</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">lock_outline</i>
+                                        <input id="password" name="password" type="password" class="validate" >
+                                        <label for="password">Enter Your Password</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="cpassword" name="cpassword" type="password" class="validate" >
+                                        <label for="cpassword">Confirm Your Password</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <button class="btn col s12 waves-effect waves-light orange" type="submit" name="signup">Sign Up</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <a href="login.html" class="pink-text"><b>Already have an account? Login.</b></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </main>
+
+        <footer class="page-footer teal">
+            <div class="footer-copyright">
+				<div class="container">
+				Designed by Josh
+				</div>
+			</div>
+        </footer> 
+
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://materializecss.com/dist/js/materialize.js"></script>
+		<script src="js/init.js"></script>
+    </body>
+</html>
